@@ -1,0 +1,35 @@
+{
+  "name": "alumni-website",
+  "version": "1.0.0",
+  "description": "Alumni Website - Full Stack Application",
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && node server.js",
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "alumni",
+    "website",
+    "nextjs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
